@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Rasmus Ingerslev <IngerslevSoftware@outlook.com>"]
 edition = "2021"
 build = "build.rs"
-description = "A template for a Rust application that's using Slint for the user interface."
+description = "Application to calculate import tax"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,5 +15,5 @@ slint = "1.8.0"
 slint-build = "1.8.0"
 
 [package.metadata.bundle]
-name = "Income Divider"
-identifier = "io.github.username.projectname"
+name = "Import Calculator"
+identifier = "io.github.RIngerslev.import-calculator"
